@@ -1,0 +1,151 @@
+body {
+    background-image: url(fundo.png);
+    background-size: 2100px 1000px;
+    background-position: -270px;
+}
+.container img {
+    width: 750px;
+    height: 400px;
+    padding-left: 600px;
+    position: absolute;
+    top: -50px;
+}
+.container1 img{
+    width: 600px;
+    height: 200px;
+}
+/*material estudo */
+.header {
+    /* cor de fundo da class header que se encontra na div*/
+    background-color: #5a595c;;
+    color: #0c0b0b;
+    padding: 20px;
+    text-align: center;
+}
+
+.formulario {
+    max-width: 300px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    text-align: left;
+    padding-right: 1100px;
+    padding-top: 350px;
+
+}
+
+.labelInput {
+    margin-bottom: 15px;
+    /* é a combinaçao do label(rotulo) e (input) caixinha de de usuario*/
+    width: 200px;
+    padding-left: 550px;
+}
+
+label {
+    display: block;
+     /* exibir como bloco */
+    font-weight: bold;
+    /* peso da fonte em negrito */
+    margin-bottom: 5px;
+    /* margem inferior de 5 pixels */
+    width: 200px;
+    /* largura de 200 pixels */
+   
+}
+
+input {
+    width: 200px;
+    padding: 15px; /* Aumentei o padding para dar mais altura aos campos */
+    border-radius: 8px;
+    border: 1px solid #0a0a0a;
+    margin-top: 10px;
+    box-sizing: border-box;
+    background-color: rgb(201, 245, 230);
+   
+}
+
+input[type="submit"] {
+    background-color:  #080808;
+    color: #faf7f7;
+    cursor: pointer;
+  
+}
+.main-content {
+    margin-left: 40px; /* Ajuste conforme necessário para a separação entre o container e o conteúdo principal */
+}
+
+.subtitle {
+    color: #dedce4;
+    /* cor do titulo dao seu texto*/
+}
+
+@media screen and (min-width: 768px) {
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .labelInput {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+    }
+}
+
+img {
+    width: 750px;
+    height: 350px;
+    /*  proporçao das imagens*/
+}
+
+#ft {
+    position: absolute;
+    top: 15;
+    right: 0;
+    /* a direita*/
+}
+.botao-link{
+    padding: 10px 35px;
+    width: 5px;
+    background-color: #108f7c;
+    color: white;
+    font-family: fantasy;
+    /* Retira o sublinhado do link */
+    border: none; /* Remover a borda padrão do botão */
+    border-radius: 10px;
+    /* IMPORTANT: IMPORTANTE */
+    text-decoration: none !important;
+  }
+  button{
+    padding: 10px 20px;
+    width: 200px;
+    background-color: #0e6357;
+    color: white;
+    /* cor das letras do botao*/
+    border: none; 
+    /* Remover a borda padrão do botão */
+    border-radius: 15px;
+    text-decoration: none !important;
+    transition: background-color 0.3s, border-color ;
+    0.3s, color 0.3s; /* Adicionar transição de efeito hover */
+  }
+.button {
+    text-align: center;
+    font-family: fantasy;
+    padding-left: 1600px;
+    margin-top: -1150px;
+}
+p{
+    text-align: center;
+}
+.container{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
